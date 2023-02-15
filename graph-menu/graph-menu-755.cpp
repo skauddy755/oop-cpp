@@ -163,7 +163,9 @@ int main() {
 	wp6->push_child(1, tl7);
 	
 	// start:
+	system("color 0b");
 	Node::main_loop(main);
+	system("color");
 	
 	return 0;
 }
