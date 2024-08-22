@@ -1,10 +1,6 @@
 # How to make a .exe file with a given icon
 
-
-
 > We will take the example of compiling a `.cpp` using `g++` to generate a `.exe` file
-
-
 
 ## What do you need?
 
@@ -16,8 +12,6 @@
    
    - You will get some online converters for doing so. **For Example:** [Try This!](https://image.online-convert.com/convert-to-ico)
 
-
-
 ## Generating the configuration files
 
 > - For some insights go to this documentation of `windres`:
@@ -25,8 +19,6 @@
 > 
 > - For our purpose, we will name this configuration file as `icon-config`
 >   You can name it whatever you want
-
-
 
 ### (1) Creating the `icon-config.rc` file
 
@@ -39,8 +31,6 @@
     ```
 
 - Close the file.
-
-
 
 ### (2) Compiling the `.rc` file to `.res`  using `windres`
 
@@ -62,10 +52,6 @@
 
 - After running this command, you should see a new file created, `icon-config.res`
 
-
-
-
-
 ## Using the Configuration Files to compile `A.cpp`
 
 - While compiling the `A.cpp` file, you will use `A.cpp` and `icon-config.res` as the source files to generate the output file `A.exe`
@@ -81,14 +67,6 @@
     - `-o <output_filename>` can also be written as:
       `--output=<output_filename>`
 
-
-
 ## And you are done!
 
 - The generated `A.exe` file will have the desired icon as chosen by you for the `my-icon.ico`
-
-
-
-
-
-

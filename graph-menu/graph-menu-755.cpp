@@ -36,9 +36,9 @@ int main() {
 	
 	LeafNode* f0 = new LeafNode("0", "STRAY_CUTS", "explorer C:\\Users\\hp\\D-Shortcuts\\Desktop-Special-Folders\\STRAY_CUTS");
 	LeafNode* f1 = new LeafNode("s", "SRIB INTERN", "explorer D:\\SRIB INTERN");
-	LeafNode* f2 = new LeafNode("i", "ISM DOCS", "explorer C:\\Users\\hp\\MyDocs755\\ISM_Docs");
+	LeafNode* f2 = new LeafNode("i", "ISM DOCS", "explorer C:\\Users\\hp\\MyDocs755\\EDU\\2023 - IIT-ISM-DHANBAD");
 	LeafNode* f3 = new LeafNode("ac", "ACADS_SEM_8", "explorer C:\\Users\\hp\\MyDocs755\\ISM_Docs\\Sem_8_Winter\\Acad_Sem8");
-	LeafNode* f33 = new LeafNode("fp", "FINAL-YEAR-PROJECT", "explorer C:\\Users\\hp\\MyDocs755\\ISM_Docs\\FINAL-YEAR-PROJECT");
+	LeafNode* f33 = new LeafNode("fp", "FINAL-YEAR-PROJECT", "explorer C:\\Users\\hp\\MyDocs755\\EDU\\2023 - IIT-ISM-DHANBAD\\FINAL-YEAR-PROJECT");
 	LeafNode* f4 = new LeafNode("pd", "PROOF DOCS", "explorer C:\\Users\\hp\\MyDocs755\\PROOF_DOCS");
 	LeafNode* f5 = new LeafNode("cl", "CYBERLABS", "explorer D:\\CYBERLABS");
 	LeafNode* f6 = new LeafNode("fi", "FFI", "explorer D:\\FFI");
@@ -104,8 +104,8 @@ int main() {
 	f->push_child(0, f0);
 	f->push_child(0, f1);
 	f->push_child(0, f2);
-	f->push_child(0, f3);
-	f->push_child(0, f33);
+	// f->push_child(0, f3);
+	// f->push_child(0, f33);
 	f->push_child(0, f4);
 	f->push_child(1, f5);
 	f->push_child(1, f6);
